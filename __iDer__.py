@@ -26,7 +26,7 @@ while True: #keep the tkinter window open even after the destroy statement from 
             howtP.title("iDER@How-To")
             howtP.geometry("610x350+340+200")
             titLab = Label (howtP, text = "How to iDER", font = ("times new roman", 15, "bold")).place (x=0,y=15,relwidth=1)
-            howText = """Hey, I heard you needed my help. This how-to should be simple and straightforward.\n\n1. Find Developer's Options on the device and Enable USB debugging.\nPS: If you can't find Developer's Options simply go to "About Phone" and Tap the text "Build Number" 3 times to enable it.\n\n2. Connect the PC to your phone's Hotspot or just make sure they're both on the same network.\n\n3. Visit www.TeLon.com/iDER/Download to register and download TeLon.\n\n4. Fire up and Login with your credentials.\n\n5. Attach your device with a USB cord and detach it once you've connected with your IP Address."""
+            howText = ""
             txt = Text(howtP, width = 70, height = 15, wrap = WORD)
             txt.insert(INSERT, howText)
             txt.place(x=25, y=60)
