@@ -8,7 +8,7 @@ from tkinter import (messagebox as mb, filedialog as fd)
 from PIL import *
 #TODO, bind Keys
 #TODO Encrypt location text file for enhanced security
-while True: #keep the tkinter window open even after the destroy statement from child window. A freaking solution to not being able to call a destroed tkinter window. Truly happy with myself (^?^)
+while True: #keep the tkinter window open even after the destroy statement from child window. A freaking solution to not being able to call a destroed tkinter window.
     try:
         def abtF ():
             abtP = Tk()
