@@ -19,7 +19,7 @@ global relPth, Pth, uhPth
 relPth = gd.path.join("C:\\", "iDer", "Scripts", "iDer")
 Pth = gd.path.join (relPth, ".iden", "{N3A8E5F9-E63F-D7D8-DD7A-I7671A- HBC781}", "{N3A8E5F9-E63F-D7D8-DD7A-I7671A- HBC781}\\")
 uhPth = relPth + "\\Unhidden Files"
-config = {"user":"root","password":"whid","host":"127.0.0.1","database":"ider"}
+config = {"user":"root","password":"whi***d","host":"127.0.0.1","database":"ider"}
 while True: #keep the tkinter window open even after the destroy statement from child window. A freaking solution to not being able to call a destroyed tkinter window.
     try:
         def iDer():
