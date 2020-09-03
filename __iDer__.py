@@ -1,6 +1,7 @@
 """!usr/bin/python
 __AUTHOR = "Olanshile Jimoh"
 __DATE = "MAR 02 2020 - till date."
+__VERSION = "3"
 """
 import os as gd, subprocess as sp, time as t
 from tkinter import *
