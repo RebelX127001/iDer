@@ -1,5 +1,5 @@
 """!usr/bin/python
-__AUTHOR = "Olanshile Jimoh"
+__AUTHOR = "Idris Olanshile Jimoh"
 __DATE = "MAR 02 2020 - till date."
 __VERSION = "3"
 """
