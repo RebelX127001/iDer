@@ -171,7 +171,7 @@ while True: #keep the tkinter window open even after the destroy statement from 
         from tkinter import (messagebox as mb, filedialog as fd)
         from PIL import *
         from pyAesCrypt import encryptFile as enc
- from pyAesCrypt import decryptFile as dec
+        from pyAesCrypt import decryptFile as dec
         bufferSize = 64 * 1024
         anon = "attrib "
         relPth = gd.path.join("C:\\", "virtualenvironment", "iDer", "Scripts", "iDer")
