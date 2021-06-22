@@ -3,13 +3,6 @@ __AUTHOR = "Olanshile Jimoh"
 __DATE = "MAR 02 2020 - till date."
 __VERSION = "3"
 """
-import os as gd, subprocess as sp, time as t
-from tkinter import *
-from tkinter import (messagebox as mb, filedialog as fd)
-from PIL import *
-from pyAesCrypt import encryptFile as enc
-from pyAesCrypt import decryptFile as dec
-#TODO Encrypt the xml file output for enhanced security: Hide the ./folder: encrypt the folder path
 while True: #keep the tkinter window open even after the destroy statement from child window. A freaking solution to not being able to call a destroyed tkinter window.
     try:
         def ex():
