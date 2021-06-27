@@ -3,7 +3,7 @@ __AUTHOR = "Idris Olanshile Jimoh"
 __DATE = "MAR 02 2020 - till date."
 __VERSION = "3"
 """
-while True: being able to call a destroyed tkinter window.
+while True: a destroyed tkinter window.
     try:
         def ex():
             res = mb.askquestion ("Confirmation", "Do you really want to leave?")
