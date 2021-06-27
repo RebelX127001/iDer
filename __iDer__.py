@@ -3,7 +3,7 @@ __AUTHOR = "Idris Olanshile Jimoh"
 __DATE = "MAR 02 2020 - till date."
 __VERSION = "3"
 """
-while True: tkinte.
+while True:
     try:
         def ex():
             res = mb.askquestion ("Confirmation", "Do you really want to leave?")
